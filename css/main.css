@@ -1,0 +1,59 @@
+body{
+	font-family: courier;
+}
+/*---TITULO DEL PROYECTO--*/
+h1{
+	width: 15%;
+	font-weight: bold;
+	font-size: 14pt;
+	margin-left:390px;	
+	border-bottom: 5px solid black;
+
+}
+/*LISTAS DESORDENADAS PARA COLOCAR LA IMAGEN*/
+ul{
+	list-style: none;
+}
+li{
+	
+	/*outline: 2px solid blue;*/
+	margin: 10px;
+	padding: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative; /*mientras sus cordenadas no esten
+	declaradas no afecta, permite q se mueva a donde se 
+	encuentra la caja posicionada*/
+	
+}
+img{
+	padding: 10px;
+	height: 160px;
+	width: 160px;
+	
+}
+p{
+	margin: 0px;
+	position: absolute;
+	left: 45px;
+	bottom: 22px;
+	right: 15px;
+	color: white;
+	font-size: 10pt;	
+	font-weight: bold;
+}
+
+
+.contenedor{
+	margin: 10px;
+	/*outline: 1px solid orange;*/
+	width: 100%;
+	
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+
+	
+
+}
+
