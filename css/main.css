@@ -9,11 +9,7 @@ h1{
 	margin-left:390px;	
 
 }
-.borde{
-	border-bottom: 5px solid black;
-	width:5%;
-	margin-left: 29%;
-}
+
 /*LISTAS DESORDENADAS PARA COLOCAR LA IMAGEN*/
 ul{
 	list-style: none;
@@ -49,16 +45,18 @@ p{
 }
 
 
-.contenedor{
+.container{
 	margin: 10px;
-	/*outline: 1px solid orange;*/
 	width: 100%;
 	
 	list-style: none;
 	padding: 0px;
 	text-align: center;
 
-	
-
 }
 
+.border{
+	border-bottom: 5px solid black;
+	width:5%;
+	margin-left: 29%;
+}
