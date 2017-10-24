@@ -7,8 +7,12 @@ h1{
 	font-weight: bold;
 	font-size: 14pt;
 	margin-left:390px;	
-	border-bottom: 5px solid black;
 
+}
+.borde{
+	border-bottom: 5px solid black;
+	width:5%;
+	margin-left: 29%;
 }
 /*LISTAS DESORDENADAS PARA COLOCAR LA IMAGEN*/
 ul{
@@ -35,9 +39,11 @@ img{
 p{
 	margin: 0px;
 	position: absolute;
-	left: 30px;
+	left: 35px;
+	right: 10px;
 	bottom: 20px;
 	color: white;
+	font-size: 11pt;
 	/*outline: 1px solid red;*/	
 	font-weight: bold;
 }
